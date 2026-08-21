@@ -12,11 +12,11 @@ Sou um entusiasta das tecnologia em busca da minha primeira oportunidade profiss
 
 Tenho praticado testes funcionais de forma autônoma e participado de ciclos de testes da comunidade **uTest**, onde aplico conceitos de qualidade em cenários reais de aplicativos Web e Mobile. Sou uma pessoa detalhista, curiosa, e sempre disposta a aprender novas ferramentas com a equipe.
 
-* 📍 **Localização:** Paraná, Brasil
+* 📍 **Localização:** Colombo, Paraná, Brasil
 * 🎓 **Formação:** Análise e Desenvolvimento de Sistemas (Cursando)
 * 💼 **Objetivo:** Primeira oportunidade em QA (Estágio ou Junior)
-* ✉️ **Contato:** [seu-email@ema.com]
-* 🔗 **LinkedIn:** [link-para-seu-linkedin]
+* ✉️ **Contato:** [caua.cs.santiago@gmail.com]
+* 🔗 **LinkedIn:** [https://www.linkedin.com/in/cauã-santiago-b80056430?utm_source=share_via&utm_content=profile&utm_medium=member_android]
 
 ---
 
