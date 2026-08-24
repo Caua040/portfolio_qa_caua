@@ -1,4 +1,13 @@
-# 📱 Projeto 1: Suíte de Testes Funcionais & Reporte de Bugs
+## 🔄 Como funciona o Ciclo de Testes na uTest (Test Cycle)
+
+A minha experiência prática com testes é construída participando de ciclos de testes (*Test Cycles*) na plataforma uTest. O fluxo de trabalho segue um processo estruturado de qualidade:
+
+1. **Análise do Overview e Escopo (Scope):** Leitura atenta das instruções do projeto para identificar o que está *In-Scope* (o que deve ser testado, como fluxos de login, pagamento ou UI) e o que está *Out-of-Scope* (o que não deve ser testado).
+2. **Setup do Ambiente (Environment):** Configuração do dispositivo (Android, iOS, Web/Navegadores) conforme as especificações solicitadas pelo cliente.
+3. **Execução de Casos de Teste e Testes Exploratórios:** Execução dos cenários direcionados (*Test Cases*) ou testes livres (*Exploratory Testing*) para encontrar comportamentos inesperados.
+4. **Coleta de Evidências Técnicas:** Utilização do DevTools, Charles Proxy ou gravadores de tela para capturar logs de console, requisições de rede e prints/vídeos demonstrando a falha.
+5. **Reporte do Defeito (Bug Report):** Cadastro da falha no padrão exigido (Título objetivo, Passos para Reprodução, Comportamento Esperado vs. Obtido, Severidade e Logs).
+6. **Revisão e Aprovacão (TTL & Client Review):** O bug passa pela validação do *Test Team Lead* (TTL) e do cliente antes de ser aprovado no ciclo.# 📱 Projeto 1: Suíte de Testes Funcionais & Reporte de Bugs
 
 Este projeto documenta o planejamento, a execução de casos de teste manuais e a identificação de falhas funcionais em aplicações Web/Mobile, com base em cenários práticos e execuções na plataforma **uTest**.
 
