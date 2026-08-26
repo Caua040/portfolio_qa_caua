@@ -28,7 +28,7 @@ Validar os fluxos críticos da aplicação (como navegação, cadastro/login, in
 | ID | Módulo | Cenário / Descrição | Pré-condição | Resultado Esperado | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **7220355** | Avaliações e Comentários | Testando interação de like e deslike das avaliações dos produtos | Usuário previamente cadastrado | Conseguir dar like ou deslike nas avaliações dos produtos  | **FAIL** |
-| **TC-002** | Autenticação | Tentar login sem preencher o campo de e-mail | Estar na tela de login | Exibir mensagem de alerta: *"Campo obrigatório"* | **PASS** |
+| **7220665** | Páginas | Testando carregamento de páginas com adblock ativado  | Usuário previamente cadastrado, ter um DNS ou VPN bloqueador de anúncio ativado | Páginas continuarem carregando ou mostrar uma mensagem pedindo pra desativar o adblock | **FAIL** |
 | **TC-003** | Interface | Navegação entre guias principais do aplicativo | Usuário logado na conta | Transição fluida de telas sem travamentos ou falhas de layout | **FAIL** |
 
 ---
@@ -37,13 +37,17 @@ Validar os fluxos críticos da aplicação (como navegação, cadastro/login, in
 
 Abaixo está o exemplo do padrão de bug report detalhado utilizado durante a execução dos testes:
 
+>🔒 **Nota sobre Confidencialidade (NDA):**
+>(Os nomes de domínio, URLs e marcas exibidos nos passos não foram exibidos para respeitar os termos de confidencialidade dos projetos e da plataforma Utest. Os comportamentos, cenários e falhas técnicas descritas são 100% fiéis às execuções práticas efetuadas, porém traduzidas).
+
 ### [7220355] Falha ao conseguir clicar nos botões de like e deslike
 
-* **Severidade:** Média |
+* **Tipo de Aplicação:** Site de compras de roupas/acessórios online 
+* **Severidade:** Média 
 * **Ambiente:** Chrome / Linux Mint
 
 **Passos para Reproduzir:**
-1. Vá para [url].
+1. Vá para [url]
 2. Na barra de navegação, clique em qualquer marca.
 3. Escolha um produto.
 4. Deslize até a aréa de avaliações.
@@ -54,6 +58,26 @@ Usuário deveria dar like ou deslike no comentário avaliando o produto com suce
 
 **Resultado Obtido:** 
 O número de likes ou deslikes na avaliação não atualiza.
+
+**Evidências e Logs:**
+* Erro registrado no console / captura de tela / video replicando o bug.
+
+### [7220665] Falha ao carregar páginas com adbock ativado
+
+* **Tipo de Aplicação:** Aplicativo de notícias de uma liga de futebol
+* **Severidade:** Alta 
+* **Ambiente:** Android 13 Go Edition / Motorola E13
+
+**Passos para Reproduzir:**
+1. Abra o aplicativo.
+2. No menu inicial, clique "fantasy".
+3. Clique em "Player Statistics" (Estatísticas do Jogador)
+
+**Resultado Esperado:** 
+Usuário deveria ser redimensionado para a página de estatísticas de um determinado jogador.
+
+**Resultado Obtido:** 
+A página não carrega, e mostra uma mensagem de erro, dizendo que algo deu errado, e pedindo pro usuário recarregar a página.
 
 **Evidências e Logs:**
 * Erro registrado no console / captura de tela / video replicando o bug.
