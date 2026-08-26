@@ -37,24 +37,26 @@ Validar os fluxos críticos da aplicação (como navegação, cadastro/login, in
 
 Abaixo está o exemplo do padrão de bug report detalhado utilizado durante a execução dos testes:
 
-### [BUG-001] Falha de renderização na transição de telas no menu principal
+### [7220355] Falha ao conseguir clicar nos botões de like e deslike
 
-* **Severidade:** Média | **Prioridade:** Média
-* **Ambiente:** Android 14 / App v2.4.1 / Conexão Wi-Fi 5G
+* **Severidade:** Média |
+* **Ambiente:** Chrome / Linux Mint
 
 **Passos para Reproduzir:**
-1. Abra o aplicativo e realize o login.
-2. No menu inferior, toque rapidamente entre as abas "Início" e "Perfil".
-3. Observe o comportamento da interface.
+1. Vá para [url].
+2. Na barra de navegação, clique em qualquer marca.
+3. Escolha um produto.
+4. Deslize até a aréa de avaliações.
+5. Clique no botão de "like" ou "deslike" em qualquer avaliação.
 
 **Resultado Esperado:** 
-As telas devem alternar sem sobreposição de elementos ou travamento visual.
+Usuário deveria dar like ou deslike no comentário avaliando o produto com sucesso.
 
 **Resultado Obtido:** 
-A tela de "Perfil" carrega sobreposta ao conteúdo da aba "Início", congelando a navegação e exigindo o reinício do aplicativo.
+O número de likes ou deslikes na avaliação não atualiza.
 
 **Evidências e Logs:**
-* Erro registrado no console / captura de tela de evidência.
+* Erro registrado no console / captura de tela / video replicando o bug.
 
 ---
 
