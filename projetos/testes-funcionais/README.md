@@ -27,7 +27,7 @@ Validar os fluxos críticos da aplicação (como navegação, cadastro/login, in
 
 | ID | Módulo | Cenário / Descrição | Pré-condição | Resultado Esperado | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TC-001** | Autenticação | Validar login com e-mail e senha válidos | Usuário previamente cadastrado | Redirecionamento para a tela inicial com sucesso | **PASS** |
+| **7220355	** | Avaliações e Comentários | Testando interação de like e deslike das avaliações dos produtos | Usuário previamente cadastrado | Conseguir dar like ou deslike nas avaliações dos produtos  | **FAIL** |
 | **TC-002** | Autenticação | Tentar login sem preencher o campo de e-mail | Estar na tela de login | Exibir mensagem de alerta: *"Campo obrigatório"* | **PASS** |
 | **TC-003** | Interface | Navegação entre guias principais do aplicativo | Usuário logado na conta | Transição fluida de telas sem travamentos ou falhas de layout | **FAIL** |
 
