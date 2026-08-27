@@ -28,8 +28,8 @@ Validar os fluxos críticos da aplicação (como navegação, cadastro/login, in
 | ID | Módulo | Cenário / Descrição | Pré-condição | Resultado Esperado | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **7220355** | Avaliações e Comentários | Testando interação de like e deslike das avaliações dos produtos | Usuário previamente cadastrado | Conseguir dar like ou deslike nas avaliações dos produtos  | **FAIL** |
-| **7220665** | Páginas | Testando carregamento de páginas com adblock ativado  | Usuário previamente cadastrado, ter um DNS ou VPN bloqueador de anúncio ativado | Páginas continuarem carregando ou mostrar uma mensagem pedindo pra desativar o adblock | **FAIL** |
-| **TC-003** | Interface | Navegação entre guias principais do aplicativo | Usuário logado na conta | Transição fluida de telas sem travamentos ou falhas de layout | **FAIL** |
+| **7220665** | Páginas e Navegação | Testando carregamento de páginas com adblock ativado  | Usuário previamente cadastrado, ter um DNS ou VPN bloqueador de anúncio ativado | Páginas continuarem carregando ou mostrar uma mensagem pedindo pra desativar o adblock | **FAIL** |
+| **7212879** | Reprodução de Vídeos | Testando a reprodução dos vídeos | Usuário logado na conta | Os vídeos devem ser reproduzidos sem problemas | **FAIL** |
 
 ---
 
@@ -81,6 +81,27 @@ A página não carrega, e mostra uma mensagem de erro, dizendo que algo deu erra
 
 **Evidências e Logs:**
 * Erro registrado no console / captura de tela / video replicando o bug.
+
+### [7212879] Falha ao carregar vídeo
+
+* **Tipo de Aplicação:** Site de futebol
+* **Severidade:** Média 
+* **Ambiente:** Firefox / Linux Mint
+
+**Passos para Reproduzir:**
+1. Vá para [url].
+2. No topo da página principal, na barra de navegação, vá para "competitions".
+3. Clique em "Brazil"
+4. Clique em qualquer vídeo e reproduza-o
+
+**Resultado Esperado:** 
+Usuário deveria conseguir assistir aos vídeos.
+
+**Resultado Obtido:** 
+O vídeo não começa, e mostra uma mensagem de erro dizendo que o vídeo não foi encontrado.
+
+**Evidências e Logs:**
+* Captura de tela.
 
 ---
 
