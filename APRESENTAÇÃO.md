@@ -1,4 +1,4 @@
-# 👋 Olá! Eu sou o Cauã da Silva Santiago
+# 👋 Olá! Eu sou Cauã da Silva Santiago
 
 Bem-vindo(a) ao meu portfólio de **Garantia de Qualidade de Software (QA)**!
 
