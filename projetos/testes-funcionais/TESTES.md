@@ -50,7 +50,7 @@ Abaixo está o exemplo do padrão de bug report detalhado utilizado durante a ex
 1. Vá para [url]
 2. Na barra de navegação, clique em qualquer marca.
 3. Escolha um produto.
-4. Deslize até a aréa de avaliações.
+4. Deslize até a área de avaliações.
 5. Clique no botão de "like" ou "deslike" em qualquer avaliação.
 
 **Resultado Esperado:** 
